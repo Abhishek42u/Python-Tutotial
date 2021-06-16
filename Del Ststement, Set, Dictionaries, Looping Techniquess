@@ -43,3 +43,12 @@ p='guido' in sona
 print(p)
 q='jack' not in sona
 print(q)
+
+#Looping Techniquess
+import math
+data = [894,35,416, float('NaN'),32, 85.21, 366, float('NaN'),53]
+anu= []
+for p in data:
+    if not math.isnan(p):
+        anu.append(p)
+print(anu)
