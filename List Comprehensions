@@ -1,0 +1,16 @@
+vec = [-4, -2, 0, 2, 4]
+L=[x*2 for x in vec]
+print(L)
+L=[x for x in vec if x >= 0]
+print(L) 
+L=[abs(x) for x in vec]
+print(L)
+sachin = ['  banana', '  loganberry ', 'passion fruit  ']
+p=[weapon.strip() for weapon in sachin]
+['banana', 'loganberry', 'passion fruit']
+print(p)
+L=[(x, x**2) for x in range(6)]
+print(L)
+vec = [[1,2,3], [4,5,6], [7,8,9]]
+p=[num for elem in vec for num in elem]
+print(p)
