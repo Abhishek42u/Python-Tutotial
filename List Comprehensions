@@ -7,7 +7,6 @@ L=[abs(x) for x in vec]
 print(L)
 sachin = ['  banana', '  loganberry ', 'passion fruit  ']
 p=[weapon.strip() for weapon in sachin]
-['banana', 'loganberry', 'passion fruit']
 print(p)
 L=[(x, x**2) for x in range(6)]
 print(L)
